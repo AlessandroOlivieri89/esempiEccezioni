@@ -13,7 +13,12 @@ public class Main {
 		}
 		catch (NullPointerException npe) {
 			npe.printStackTrace();
-			
+		}
+		finally {
+			if (T == null) {
+				
+			}
+		
 		}
 		
 	}

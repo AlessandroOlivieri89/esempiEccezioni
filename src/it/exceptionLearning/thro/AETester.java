@@ -1,10 +1,15 @@
 package it.exceptionLearning.thro;
 
+import it.exceptionLearning.esercizi.ListOfNumbers;
+
 public class AETester {
 
-	public static void main(String[] args) {
 	
-
+	
+	public static void main(String[] args) {
+		
+		ListOfNumbers LoN = new ListOfNumbers();
+		LoN.readList();
 	}
 	
 	

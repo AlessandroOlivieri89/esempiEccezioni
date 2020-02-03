@@ -26,7 +26,20 @@ public class Main {
 //			System.out.println("stringa non inizializzata");
 //		}
 		
+		int i = 0;
+		
+		try {
+			
+			
+			System.out.println(i/(int) (Math.random() * 4));
 		}
+		
+		catch (ArithmeticException ae) {
+			System.out.println("non può essere 0");
+		}
+	}
+	
+		
 		
 	}
 

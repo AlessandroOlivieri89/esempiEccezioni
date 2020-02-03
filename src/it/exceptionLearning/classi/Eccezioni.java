@@ -1,8 +1,10 @@
 package it.exceptionLearning.classi;
 
 public class Eccezioni {
-
+	//metodo main
 	public static void main(String[] args) {
+		
+		//metodo creato da noi eseguito due volte con valori di parametro diversi
 		Eccezioni.metodoSequenza1(23);
 		Eccezioni.metodoSequenza1(54);
 		
@@ -13,24 +15,9 @@ public class Eccezioni {
 		// esegui un lungo blocco di codice e per un motivo qualsiasi potrebbe verificarsi una eccezione
 		
 		
-		
-		
-		
-		//
-		
-		
-		
-		
+	
 		throw new RuntimeException("si e' verificata una eccezione");
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		
 	}
 	
